@@ -1,0 +1,18 @@
+{
+  "name": "radiant-remnant",
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "PORT=8080 node dist/server/entry.mjs",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^5.3.5",
+    "@astrojs/vue": "^2.2.1",
+    "astro": "^2.10.12",
+    "vue": "^3.3.4"
+  }
+}
